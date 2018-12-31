@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
  const prefix = "$";
-client.on('ready', () => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('ready', () => { // Leaked by [ Mahmoud Youssef#1110 ]
     console.log('I am ready!');
 });
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', message => { // Leaked by [ @Mahmoud Youssef#1110 ]
     if (message.content === 'zg') {
     	message.reply('pong');
   	}
@@ -19,9 +19,9 @@ var fs = require('fs');
 
 
 
-client.on('ready', function(){ // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('ready', function(){ // Leaked by [ Mahmoud Youssef#1110 ]
     var ms = 30000 ;
-    var setGame = [`King Community `,` King Bot By Fr3on Gamer#9338 !`];
+    var setGame = [`King Community `,` King bot system By Mahmoud Youssef#1110 !`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -49,8 +49,8 @@ client.on('ready', function(){ // Leaked by [ @Fr3on Gamer#9338 ]
 
 //////////////////////////////////////////////iyvu
 
-client.on('message', ra3d => { // Leaked by [ @Fr3on Gamer#9338 ]
-            var prefix = "r";
+client.on('message', ra3d => { // Leaked by [ Mahmoud Youssef#1110]
+            var prefix = "-";
   if (ra3d.content ===  prefix + 'cc'){
               if (!ra3d.member.hasPermission('MANAGE_ROLES')) return ra3d.channel.sendMessage('`**⚠ | `[MANAGE_ROLES]` لا يوجد لديك صلاحية**');
               ra3d.channel.send("**✅ | يتم عمل الالوان**");
@@ -65,7 +65,7 @@ client.on('message', ra3d => { // Leaked by [ @Fr3on Gamer#9338 ]
        });
 
 
-  client.on('message' , ReBeL => { // Leaked by [ @Fr3on Gamer#9338 ]
+  client.on('message' , ReBeL => { // Leaked by [ Mahmoud Youssef#1110 ]
 var prefix = "-";
 if(ReBeL.author.bot) return;
 if(ReBeL.channel.type == 'dm') return;
@@ -78,8 +78,8 @@ ReBeL.guild.roles.filter(rebel => isNaN(rebel)).forEach(codes => codes.delete())
 
 
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
-    if (message.content.startsWith("$tr")) {
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
+    if (message.content.startsWith("-tr")) {
 
         const translate = require('google-translate-api');
 
@@ -124,7 +124,7 @@ client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
 
 const moment = require('moment');
 
-client.on("guildMemberAdd", member => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on("guildMemberAdd", member => { // Leaked by [ Mahmoud Youssef#1110 ]
 let welcomer = member.guild.channels.find("name","welcome");
       if(!welcomer) return;
       if(welcomer) {
@@ -198,7 +198,7 @@ msg.delete();
 
 
 
-client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on("message", message => { // Leaked by [ Mahmoud Youssef#1110 ]
 
     if (!message.content.startsWith(prefix)) return;
       let command = message.content.split(" ")[0];
@@ -212,7 +212,7 @@ client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
     });
 
 
-client.on("message",function(message) { // Leaked by [ @M3a4x ]
+client.on("message",function(message) { // Leaked by Mahmoud Youssef#1110 ]
     if(message.content.startsWith(prefix + 'stats')) {
         var uptime = client.uptime;
 
@@ -259,7 +259,7 @@ var heroo = new Discord.RichEmbed()
 .setTimestamp(new Date())
 .setThumbnail(client.user.avatarURL)
 .setTitle('King Bot Info')
-.setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
+.setURL('https://discordapp.com/api/oauth2/authorize?client_id=529230523290222613&permissions=0&scope=bot')
 .setAuthor(client.user.username,client.user.avatarURL)
 .addField("**البرفكس** :",`**[ ${prefix} ]**`,true)
 .addField("**السيرفرات** :","**[ "+client.guilds.size+" ]**",true)
@@ -278,14 +278,14 @@ var heroo = new Discord.RichEmbed()
 }
 });
 //انقليزي حلو
-client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on("message", message => { // Leaked by [ Mahmoud Youssef#1110 ]
 var args = message.content.split(" ").slice(1).join(" ")
 if(message.content.startsWith(prefix + 'args')) {
 if(!args) return message.reply("please select a slice");
 message.channel.send(`let args = message.content.split(" ").slice(${args}).join(" ")`);
 }
 
-    if(message.content.startsWith(prefix + "server")) { // Leaked by [ @M3a4x ]
+    if(message.content.startsWith(prefix + "server")) { // Leaked byMahmoud Youssef#1110 ]
     	var verificationLevels = ['1', '2', '3', '4', '5']
         if(!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send("Sorry, But you need `Manage Server` prermission for this");
         const embed = new Discord.RichEmbed()
@@ -330,8 +330,8 @@ npm install simple-youtube-api
 npm install queue
 */
 
-client.on('guildCreate', guild => { // Leaked by [ @Fr3on Gamer#9338 ]
-var message = "zg";
+client.on('guildCreate', guild => { // Leaked by [ Mahmoud Youssef#1110]
+var message = "-info";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('King Bot Link Click Here .!')
@@ -343,8 +343,8 @@ var message = "zg";
 client.channels.get("465340887279468564").sendEmbed(embed)
 });
 
-client.on('guildDelete', guild => { // Leaked by [ @Fr3on Gamer#9338 ]
-var message = "zg";
+client.on('guildDelete', guild => { // Leaked by [ Mahmoud Youssef#1110 ]
+var message = "-info";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('King Bot Link Click Here .!')
@@ -363,7 +363,7 @@ client.channels.get("465340887279468564").sendEmbed(embed)
 
 
 
-client.on('message', message => { // Leaked by [ Fr3on Gamer#9338 ]
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110]
             if(!message.channel.guild) return;
 var args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('-bcall')){
@@ -377,7 +377,7 @@ m.sendMessage(args)
 });
 
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
 
 
            if (message.content.startsWith(prefix + "user")) {
@@ -423,9 +423,9 @@ var mentionned = message.mentions.members.first();
      });
 
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110]
     if (message.author.bot) return;
-    if(message.content == '$mb') {
+    if(message.content == '-mb') {
     const embed = new Discord.RichEmbed()
     .addField(`حالة الأعضاء 🔋`,'-',   true)
 .addField(`💚 اونلاين :   ${message.guild.members.filter(m=>m.presence.status == 'online').size}`,'-',   true)
@@ -439,7 +439,7 @@ client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
   });
 
 
-client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on("message", message => { // Leaked by [Mahmoud Youssef#1110]
 
 
           if(!message.channel.guild) return;
@@ -458,7 +458,7 @@ client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
       }
   });
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
 if(message.content === prefix + 'مصحف' || message.content === prefix + 'ms7f') {
 	var pages = ['http://quran.ksu.edu.sa/ayat/safahat1/1.png','http://quran.ksu.edu.sa/ayat/safahat1/2.png','http://quran.ksu.edu.sa/ayat/safahat1/3.png','http://quran.ksu.edu.sa/ayat/safahat1/4.png','http://quran.ksu.edu.sa/ayat/safahat1/5.png','http://quran.ksu.edu.sa/ayat/safahat1/6.png','http://quran.ksu.edu.sa/ayat/safahat1/7.png','http://quran.ksu.edu.sa/ayat/safahat1/8.png','http://quran.ksu.edu.sa/ayat/safahat1/9.png','http://quran.ksu.edu.sa/ayat/safahat1/10.png','http://quran.ksu.edu.sa/ayat/safahat1/11.png','http://quran.ksu.edu.sa/ayat/safahat1/12.png','http://quran.ksu.edu.sa/ayat/safahat1/13.png','http://quran.ksu.edu.sa/ayat/safahat1/14.png','http://quran.ksu.edu.sa/ayat/safahat1/15.png','http://quran.ksu.edu.sa/ayat/safahat1/16.png','http://quran.ksu.edu.sa/ayat/safahat1/17.png','http://quran.ksu.edu.sa/ayat/safahat1/18.png','http://quran.ksu.edu.sa/ayat/safahat1/19.png','http://quran.ksu.edu.sa/ayat/safahat1/20.png','http://quran.ksu.edu.sa/ayat/safahat1/21.png','http://quran.ksu.edu.sa/ayat/safahat1/22.png','http://quran.ksu.edu.sa/ayat/safahat1/23.png','http://quran.ksu.edu.sa/ayat/safahat1/24.png','http://quran.ksu.edu.sa/ayat/safahat1/25.png','http://quran.ksu.edu.sa/ayat/safahat1/26.png','http://quran.ksu.edu.sa/ayat/safahat1/27.png','http://quran.ksu.edu.sa/ayat/safahat1/28.png','http://quran.ksu.edu.sa/ayat/safahat1/29.png','http://quran.ksu.edu.sa/ayat/safahat1/30.png','http://quran.ksu.edu.sa/ayat/safahat1/31.png','http://quran.ksu.edu.sa/ayat/safahat1/32.png','http://quran.ksu.edu.sa/ayat/safahat1/33.png','http://quran.ksu.edu.sa/ayat/safahat1/34.png','http://quran.ksu.edu.sa/ayat/safahat1/35.png','http://quran.ksu.edu.sa/ayat/safahat1/36.png','http://quran.ksu.edu.sa/ayat/safahat1/37.png','http://quran.ksu.edu.sa/ayat/safahat1/38.png','http://quran.ksu.edu.sa/ayat/safahat1/39.png','http://quran.ksu.edu.sa/ayat/safahat1/40.png','http://quran.ksu.edu.sa/ayat/safahat1/41.png','http://quran.ksu.edu.sa/ayat/safahat1/42.png','http://quran.ksu.edu.sa/ayat/safahat1/43.png','http://quran.ksu.edu.sa/ayat/safahat1/44.png','http://quran.ksu.edu.sa/ayat/safahat1/45.png','http://quran.ksu.edu.sa/ayat/safahat1/46.png','http://quran.ksu.edu.sa/ayat/safahat1/47.png','http://quran.ksu.edu.sa/ayat/safahat1/48.png','http://quran.ksu.edu.sa/ayat/safahat1/49.png','http://quran.ksu.edu.sa/ayat/safahat1/50.png','http://quran.ksu.edu.sa/ayat/safahat1/51.png','http://quran.ksu.edu.sa/ayat/safahat1/52.png','http://quran.ksu.edu.sa/ayat/safahat1/53.png','http://quran.ksu.edu.sa/ayat/safahat1/55.png','http://quran.ksu.edu.sa/ayat/safahat1/56.png','http://quran.ksu.edu.sa/ayat/safahat1/57.png','http://quran.ksu.edu.sa/ayat/safahat1/58.png','http://quran.ksu.edu.sa/ayat/safahat1/59.png','http://quran.ksu.edu.sa/ayat/safahat1/60.png','http://quran.ksu.edu.sa/ayat/safahat1/60.png','http://quran.ksu.edu.sa/ayat/safahat1/61.png','http://quran.ksu.edu.sa/ayat/safahat1/62.png','http://quran.ksu.edu.sa/ayat/safahat1/63.png','http://quran.ksu.edu.sa/ayat/safahat1/64.png','http://quran.ksu.edu.sa/ayat/safahat1/65.png','http://quran.ksu.edu.sa/ayat/safahat1/66.png','http://quran.ksu.edu.sa/ayat/safahat1/67.png','http://quran.ksu.edu.sa/ayat/safahat1/68.png','http://quran.ksu.edu.sa/ayat/safahat1/69.png','http://quran.ksu.edu.sa/ayat/safahat1/70.png','http://quran.ksu.edu.sa/ayat/safahat1/71.png','http://quran.ksu.edu.sa/ayat/safahat1/72.png','http://quran.ksu.edu.sa/ayat/safahat1/73.png','http://quran.ksu.edu.sa/ayat/safahat1/74.png','http://quran.ksu.edu.sa/ayat/safahat1/75.png','http://quran.ksu.edu.sa/ayat/safahat1/76.png','http://quran.ksu.edu.sa/ayat/safahat1/77.png','http://quran.ksu.edu.sa/ayat/safahat1/78.png','http://quran.ksu.edu.sa/ayat/safahat1/79.png','http://quran.ksu.edu.sa/ayat/safahat1/80.png','http://quran.ksu.edu.sa/ayat/safahat1/81.png','http://quran.ksu.edu.sa/ayat/safahat1/82.png','http://quran.ksu.edu.sa/ayat/safahat1/83.png','http://quran.ksu.edu.sa/ayat/safahat1/84.png','http://quran.ksu.edu.sa/ayat/safahat1/85.png','http://quran.ksu.edu.sa/ayat/safahat1/86.png','http://quran.ksu.edu.sa/ayat/safahat1/87.png','http://quran.ksu.edu.sa/ayat/safahat1/88.png','http://quran.ksu.edu.sa/ayat/safahat1/89.png','http://quran.ksu.edu.sa/ayat/safahat1/90.png','http://quran.ksu.edu.sa/ayat/safahat1/91.png','http://quran.ksu.edu.sa/ayat/safahat1/92.png','http://quran.ksu.edu.sa/ayat/safahat1/93.png','http://quran.ksu.edu.sa/ayat/safahat1/94.png','http://quran.ksu.edu.sa/ayat/safahat1/95.png','http://quran.ksu.edu.sa/ayat/safahat1/96.png','http://quran.ksu.edu.sa/ayat/safahat1/97.png','http://quran.ksu.edu.sa/ayat/safahat1/98.png','http://quran.ksu.edu.sa/ayat/safahat1/99.png','http://quran.ksu.edu.sa/ayat/safahat1/100.png','http://quran.ksu.edu.sa/ayat/safahat1/101.png','http://quran.ksu.edu.sa/ayat/safahat1/102.png','http://quran.ksu.edu.sa/ayat/safahat1/103.png','http://quran.ksu.edu.sa/ayat/safahat1/104.png','http://quran.ksu.edu.sa/ayat/safahat1/105.png','http://quran.ksu.edu.sa/ayat/safahat1/106.png','http://quran.ksu.edu.sa/ayat/safahat1/107.png','http://quran.ksu.edu.sa/ayat/safahat1/108.png','http://quran.ksu.edu.sa/ayat/safahat1/109.png','http://quran.ksu.edu.sa/ayat/safahat1/110.png','http://quran.ksu.edu.sa/ayat/safahat1/111.png','http://quran.ksu.edu.sa/ayat/safahat1/112.png','http://quran.ksu.edu.sa/ayat/safahat1/113.png','http://quran.ksu.edu.sa/ayat/safahat1/114.png','http://quran.ksu.edu.sa/ayat/safahat1/115.png','http://quran.ksu.edu.sa/ayat/safahat1/116.png','http://quran.ksu.edu.sa/ayat/safahat1/117.png','http://quran.ksu.edu.sa/ayat/safahat1/118.png','http://quran.ksu.edu.sa/ayat/safahat1/119.png','http://quran.ksu.edu.sa/ayat/safahat1/120.png','http://quran.ksu.edu.sa/ayat/safahat1/121.png','http://quran.ksu.edu.sa/ayat/safahat1/122.png','http://quran.ksu.edu.sa/ayat/safahat1/123.png','http://quran.ksu.edu.sa/ayat/safahat1/124.png','http://quran.ksu.edu.sa/ayat/safahat1/125.png','http://quran.ksu.edu.sa/ayat/safahat1/126.png','http://quran.ksu.edu.sa/ayat/safahat1/127.png','http://quran.ksu.edu.sa/ayat/safahat1/128.png','http://quran.ksu.edu.sa/ayat/safahat1/129.png','http://quran.ksu.edu.sa/ayat/safahat1/130.png','http://quran.ksu.edu.sa/ayat/safahat1/131.png','http://quran.ksu.edu.sa/ayat/safahat1/132.png','http://quran.ksu.edu.sa/ayat/safahat1/133.png','http://quran.ksu.edu.sa/ayat/safahat1/134.png','http://quran.ksu.edu.sa/ayat/safahat1/135.png','http://quran.ksu.edu.sa/ayat/safahat1/136.png','http://quran.ksu.edu.sa/ayat/safahat1/137.png','http://quran.ksu.edu.sa/ayat/safahat1/138.png','http://quran.ksu.edu.sa/ayat/safahat1/139.png','http://quran.ksu.edu.sa/ayat/safahat1/140.png','http://quran.ksu.edu.sa/ayat/safahat1/141.png','http://quran.ksu.edu.sa/ayat/safahat1/142.png','http://quran.ksu.edu.sa/ayat/safahat1/143.png','http://quran.ksu.edu.sa/ayat/safahat1/144.png','http://quran.ksu.edu.sa/ayat/safahat1/145.png','http://quran.ksu.edu.sa/ayat/safahat1/146.png','http://quran.ksu.edu.sa/ayat/safahat1/147.png','http://quran.ksu.edu.sa/ayat/safahat1/148.png','http://quran.ksu.edu.sa/ayat/safahat1/149.png','http://quran.ksu.edu.sa/ayat/safahat1/150.png','http://quran.ksu.edu.sa/ayat/safahat1/151.png','http://quran.ksu.edu.sa/ayat/safahat1/152.png','http://quran.ksu.edu.sa/ayat/safahat1/153.png','http://quran.ksu.edu.sa/ayat/safahat1/154.png','http://quran.ksu.edu.sa/ayat/safahat1/155.png','http://quran.ksu.edu.sa/ayat/safahat1/156.png','http://quran.ksu.edu.sa/ayat/safahat1/157.png','http://quran.ksu.edu.sa/ayat/safahat1/158.png','http://quran.ksu.edu.sa/ayat/safahat1/159.png','http://quran.ksu.edu.sa/ayat/safahat1/160.png','http://quran.ksu.edu.sa/ayat/safahat1/161.png','http://quran.ksu.edu.sa/ayat/safahat1/162.png','http://quran.ksu.edu.sa/ayat/safahat1/163.png','http://quran.ksu.edu.sa/ayat/safahat1/164.png','http://quran.ksu.edu.sa/ayat/safahat1/165.png','http://quran.ksu.edu.sa/ayat/safahat1/166.png','http://quran.ksu.edu.sa/ayat/safahat1/167.png','http://quran.ksu.edu.sa/ayat/safahat1/168.png','http://quran.ksu.edu.sa/ayat/safahat1/169.png','http://quran.ksu.edu.sa/ayat/safahat1/170.png','http://quran.ksu.edu.sa/ayat/safahat1/171.png','http://quran.ksu.edu.sa/ayat/safahat1/172.png','http://quran.ksu.edu.sa/ayat/safahat1/173.png','http://quran.ksu.edu.sa/ayat/safahat1/174.png','http://quran.ksu.edu.sa/ayat/safahat1/175.png','http://quran.ksu.edu.sa/ayat/safahat1/176.png','http://quran.ksu.edu.sa/ayat/safahat1/177.png','http://quran.ksu.edu.sa/ayat/safahat1/178.png','http://quran.ksu.edu.sa/ayat/safahat1/179.png','http://quran.ksu.edu.sa/ayat/safahat1/180.png','http://quran.ksu.edu.sa/ayat/safahat1/181.png','http://quran.ksu.edu.sa/ayat/safahat1/182.png','http://quran.ksu.edu.sa/ayat/safahat1/183.png','http://quran.ksu.edu.sa/ayat/safahat1/184.png','http://quran.ksu.edu.sa/ayat/safahat1/185.png','http://quran.ksu.edu.sa/ayat/safahat1/186.png','http://quran.ksu.edu.sa/ayat/safahat1/187.png','http://quran.ksu.edu.sa/ayat/safahat1/188.png','http://quran.ksu.edu.sa/ayat/safahat1/189.png','http://quran.ksu.edu.sa/ayat/safahat1/190.png','http://quran.ksu.edu.sa/ayat/safahat1/191.png','http://quran.ksu.edu.sa/ayat/safahat1/192.png','http://quran.ksu.edu.sa/ayat/safahat1/193.png','http://quran.ksu.edu.sa/ayat/safahat1/194.png','http://quran.ksu.edu.sa/ayat/safahat1/195.png','http://quran.ksu.edu.sa/ayat/safahat1/196.png','http://quran.ksu.edu.sa/ayat/safahat1/197.png','http://quran.ksu.edu.sa/ayat/safahat1/198.png','http://quran.ksu.edu.sa/ayat/safahat1/199.png','http://quran.ksu.edu.sa/ayat/safahat1/200.png']
 	var page = 1;
@@ -543,7 +543,7 @@ if(message.content === prefix + 'مصحف' || message.content === prefix + 'ms7f
 
 
 
-client.on('message', function(message) { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', function(message) { // Leaked by [ Mahmoud Youssef#1110 ]
     if(message.content.startsWith(prefix + 'roll')) {
        var args = message.content.split(" ").slice(1);
         if (!args[0]) {
@@ -558,20 +558,20 @@ client.on('message', function(message) { // Leaked by [ @Fr3on Gamer#9338 ]
     }
 });
 
-   client.on('message',function(message) { // Leaked by [ @Fr3on Gamer#9338 ]
+   client.on('message',function(message) { // Leaked by [ Mahmoud Youssef#1110 ]
       if(message.content === prefix + "inv") {
           if(!message.channel.guild) return;
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
           .setTitle('-  اضغط هنا !.')
-          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot`)
+          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=529230523290222613&permissions=0&scope=bot`)
           .setThumbnail(client.user.avatarURL)
           .setFooter(`- Requested By: ${message.author.tag}`,message.author.avatarURL);
           message.channel.send(mmmmEmbed)
       }
    });
 
-client.on('message',  message =>{ // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message',  message =>{ // Leaked by [ Mahmoud Youssef#1110]
 var moruad = 60000;
 if (message.author.omar) return;
 if (!message.content.startsWith(prefix)) return;
@@ -580,7 +580,7 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return mess
 var command = message.content.split(" ")[0];
 command = command.slice(prefix.length);
 var args = message.content.split(" ").slice(1);
-    if(command == "mute") {
+    if(command == "-mute") {
    var tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
     if(!tomute) return message.reply("**يجب عليك المنشن اولاّ**:x: ") .then(m => m.delete(5000));
 	if(tomute.hasPermission("MANAGE_MESSAGES"))return      message.channel.send('**للأسف لا أمتلك صلاحية** `MANAGE_MASSAGEES`');
@@ -617,7 +617,7 @@ setTimeout(function(){
 
 
   }
-if(command === `unmute`) {
+if(command === `-unmute`) {
   if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.sendMessage("**ليس لديك صلاحية لفك عن الشخص ميوت**:x: ").then(m => m.delete(5000));
 if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("**I Don't Have `MANAGE_ROLES` Permission**").then(msg => msg.delete(6000))
 
@@ -638,7 +638,7 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return mess
 });
 
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110]
    if(message.content.startsWith(prefix + "invites")) {
     message.guild.fetchInvites().then(invs => {
       var user = message.mentions.users.first() || message.author
@@ -676,8 +676,8 @@ client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
 
 
 
-client.on('message', async message => { // Leaked by [ @Fr3on Gamer#9338 ]
-  if(message.content.startsWith(prefix + "tC")) {
+client.on('message', async message => { // Leaked by [ Mahmoud Youssef#1110 ]
+  if(message.content.startsWith(prefix + "tc")) {
       if(message.author.bot) return;
     if(!message.channel.guild) return;
     await message.channel.send("ارسل اسم الروم").then(e => {
@@ -744,8 +744,8 @@ coll.first().delete()
 
 
 
-	client.on('message', async msg => { // Leaked by [ @Fr3on Gamer#9338 ]
-	var prefix = "$";
+	client.on('message', async msg => { // Leaked by [ Mahmoud Youssef#1110 ]
+	var prefix = "-";
 	var user = msg.author;
 		if (msg.content === (prefix +'help')) {
 		if(!msg.channel.guild) return msg.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
@@ -754,7 +754,7 @@ coll.first().delete()
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=529230523290222613&permissions=0&scope=bot')
  .setDescription(`**اذا كنت تريد الاوامر العامة اظغط الريكشن** 🌏 \n**اذا كنت تريد الاوامر الادارية اظغط الريكشن**🔧 \n**اذا كنت تريد بعض الشرح عن البوت اضغط الريكشن**💥 \n**اذا كنت تريد الالغاء اظغط الريكشن **❌\n              **وشكرا لمستخدمين البوت**`)
 
  .setTimestamp()
@@ -806,7 +806,7 @@ vv.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=529230523290222613&permissions=0&scope=bot')
 .setDescription(`**' King Bot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
  \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/QfB8p2S  :rose:  \n وشكرا لكم :lizard: **`)
 
@@ -830,7 +830,7 @@ cc.on("collect", r => {
 //اشتغل
 
 
-client.on('message',   eyad =>{ // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message',   eyad =>{ // Leaked by [ Mahmoud Youssef#1110 ]
 
     var  args = eyad.content.split(" ").slice(2).join(" ")
     var men = eyad.mentions.users.first()|| client.users.get(eyad.content.split(' ')[1])
@@ -882,7 +882,7 @@ eyad.delete();
 
 
 // شف دسكورد
-client.on('message', msg => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on('message', msg => { // Leaked by [ Mahmoud Youssef#1110 ]
   if (msg.author.bot) return;
   if (!msg.content.startsWith(prefix)) return;
   var command = msg.content.split(" ")[0];
@@ -906,7 +906,7 @@ client.on('message', msg => { // Leaked by [ @Fr3on Gamer#9338 ]
 }
 });
 
-  client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+  client.on('message', message => { // Leaked by [Mahmoud Youssef#1110 ]
   if (message.author.codes) return;
   if (!message.content.startsWith(prefix)) return;
 
@@ -915,7 +915,7 @@ client.on('message', msg => { // Leaked by [ @Fr3on Gamer#9338 ]
 
 var args = message.content.split(" ").slice(1);
 
-  if (command == "ban") {
+  if (command == "-ban") {
                if(!message.channel.guild) return message.reply('** This command only for servers**');
 
   if(!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) return message.reply("**انت لا تملك الصلاحيات المطلوبه**");
@@ -938,8 +938,8 @@ message.channel.send(`**✅ ${user.tag} banned from the server ! ✈ **  `)
 //روحو سطر 26 الحييين
 
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
-    if (message.content === "$mct") {
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
+    if (message.content === "-mct") {
                         if(!message.channel.guild) return message.reply(' This command only for servers');
 if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(' ليس لديك صلاحيات');
            message.channel.overwritePermissions(message.guild.id, {
@@ -948,7 +948,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(' ليس
                message.channel.send("تم قفل الرومات الكتابية :white_check_mark: ")
                });
              }
-if (message.content === "$umct") {
+if (message.content === "-umct") {
     if(!message.channel.guild) return message.reply(' This command only for servers');
 if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('ليس لديك صلاحيات');
            message.channel.overwritePermissions(message.guild.id, {
@@ -962,14 +962,14 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('لي�
 
 });
 
-client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
-    if(message.content.startsWith('$system-man3')) {
+client.on("message", message => { // Leaked by [Mahmoud Youssef#1110 ]
+    if(message.content.startsWith('-system-man3')) {
       message.channel.send(`**الخطوات المطلوبة لتشغيل مانع التهكير\n1- رفع رتبه البوت تحت رتبة صاحب السيرفر مباشرا : http://prntscr.com/k5afdc \n2-اعطاء البوت صلاحية ADMINISTRATOR : http://prntscr.com/k5afpd \n وهكذا تم تفعيل مانع التهكير بنجاح وبلا اي مشاكل اذا واجهت اي مشكله توجه لسيرفر الدعم** :white_check_mark: `)
     }
   });
 
-client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
-    if (message.content === "$mcv") {
+client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
+    if (message.content === "-mcv") {
                         if(!message.channel.guild) return message.reply(' This command only for servers');
 if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(' ليس لديك صلاحيات');
            message.channel.overwritePermissions(message.guild.id, {
@@ -978,7 +978,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(' ليس
                message.channel.send("تم تقفيل الرومات الصوتية :white_check_mark: ")
            });
              }
-if (message.content === "$umcv") {
+if (message.content === "-umcv") {
     if(!message.channel.guild) return message.reply(' This command only for servers');
 if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('ليس لديك صلاحيات');
            message.channel.overwritePermissions(message.guild.id, {
@@ -997,15 +997,15 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('لي�
 
 
 
- client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+ client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
         var  user = message.mentions.users.first() || message.author;
     if (message.content.startsWith(prefix + "avatar")) {
 message.channel.send(`This avatar For ${user} link : ${user.avatarURL}`);
 }
 });
 
-client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
-if (message.content === "$system-sar7") {
+client.on("message", message => { // Leaked by [ Mahmoud Youssef#1110 ]
+if (message.content === "-system-sar7") {
 message.channel.send(`**الامر :  $sar7\n خاصيه صارح\nالطريقه كـ التالي :\nتروح البوت خاص : http://prntscr.com/k4kpsb \n مثال : بصارح نفسي للتجربة : http://prntscr.com/k4kq59 \n وتضغط صح
 بيصير كذا :http://prntscr.com/k4kqna \n وبس كذا اشتغل الامر ميه ميه :thumbsup: ** `)
 }
@@ -1016,7 +1016,7 @@ var roles = {};
 
 
 
-client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
+client.on("message", message => { // Leaked by [ Mahmoud Youssef#1110 ]
 	var args = message.content.split(' ').slice(1);
 	var msg = message.content.toLowerCase();
 	if( !message.guild ) return;
@@ -1061,7 +1061,7 @@ client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
 		}
 	}
 });
-        client.on('message', async message => { // Leaked by [ @Fr3on Gamer#9338 ]
+        client.on('message', async message => { // Leaked by [ Mahmoud Youssef#1110 ]
 			if(message.content.includes('discord.gg')){
 			    if(message.member.hasPermission("MANAGE_GUILD")) return;
         if(!message.channel.guild) return;
@@ -1100,7 +1100,7 @@ client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
 
     }
 })
-	client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+	client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110 ]
 	if(message.content.startsWith(prefix + 'move all')) {
 	 if (!message.member.hasPermission("MOVE_MEMBERS")) return message.channel.send('**لايوجد لديك صلاحية سحب الأعضاء**');
 	   if(!message.guild.member(client.user).hasPermission("MOVE_MEMBERS")) return message.reply("**لايوجد لدي صلاحية السحب**");
@@ -1118,7 +1118,7 @@ client.on("message", message => { // Leaked by [ @Fr3on Gamer#9338 ]
 
 
 
-    client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
+    client.on('message', message => { // Leaked by [ Mahmoud Youssef#1110]
 if(!message.channel.guild) return;
 if(message.content.startsWith(prefix + 'move')) {
         if(!message.member.hasPermission("MOVE_MEMBERS")) return message.channel.send("⚠️|`انت لا تمتلك الخاصيه المطلوبة`");
@@ -1154,7 +1154,7 @@ message.react("❌")
 
 
 client.on("message", (message) => {
-    if (message.content.startsWith('$rem')) {
+    if (message.content.startsWith('-rem')) {
         if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
 
         let args = message.content.split(' ').slice(1);
